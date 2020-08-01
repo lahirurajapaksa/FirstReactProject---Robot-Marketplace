@@ -3,6 +3,7 @@ import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
 import ErrorBoundary from '../components/ErrorBoundary.js'
+import Footer from '../components/Footer.js';
 import './App.css'
 
 
@@ -57,6 +58,7 @@ class App extends Component {
 							<CardList robots={filteredRobots}/> 
 						</ErrorBoundary>
 					</Scroll>
+					<Footer/>
 				</div>
 				);
 
